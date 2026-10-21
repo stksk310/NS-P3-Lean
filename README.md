@@ -1,6 +1,6 @@
 # NS-P3/P4 Lean formalization
 
-Private source-staging snapshot, prepared for author review before any public release. No GitHub Release, Zenodo DOI, accepted paper, journal submission or independent human peer review is asserted here.
+Public source repository for the NS-P3/P4 Lean formalization, software snapshot version **0.1.0**. No tagged GitHub Release, Zenodo DOI, accepted paper, journal submission or independent human peer review is asserted here.
 
 This project formalizes the extremal minimal-presentation cardinality for numerical semigroups of actual embedding dimension four (the literature's shifted index e=3). For multiplicity m ≥ 4, the maximum is floor(2 + 2 sqrt(m)), and it is attained. At shifted index e=3, equality with the Macaulay bound occurs exactly for 4 ≤ m ≤ 9. The scope does not extend to arbitrary embedding dimension or classification of every attainable cardinality.
 
@@ -29,7 +29,7 @@ lake env lean NSP3/P3FinalAxioms.lean
 lake env lean NSP3/P4Axioms.lean
 ```
 
-The accepted historical cold-recovery evidence covers 467 strict project-file checks, 866 axiom outputs and 33 axiom drivers with nine pinned dependencies. Its source manifest is `0a415b291f0c949651de72af2cf3f9dcffca8444b890b7131ee7577c1b649073`. The accepted cold RESULT SHA-256 is `5c2eb908c64f0e5a34a482cbf116d8d6005f20116a033b07e46a6b8f617cb5fe`; the author-decision R2 RESULT SHA-256 is `75d3cbdd7dd7098294c061da18644fde1178a32c3930a2a808cc30a95f98a049`. These identify existing evidence, not downloadable releases or DOIs. Full audit logs are retained separately. Installed Lean/stdlib was a trusted prebuilt baseline. **Private staging does not rerun Lean, the cold build, or a kernel replay on another host.** Source hashes/API checks and a remote re-clone verify staging integrity, not a new mathematical proof.
+The accepted historical cold-recovery evidence covers 467 strict project-file checks, 866 axiom outputs and 33 axiom drivers with nine pinned dependencies. Its source manifest is `0a415b291f0c949651de72af2cf3f9dcffca8444b890b7131ee7577c1b649073`. The accepted cold RESULT SHA-256 is `5c2eb908c64f0e5a34a482cbf116d8d6005f20116a033b07e46a6b8f617cb5fe`; the author-decision R2 RESULT SHA-256 is `75d3cbdd7dd7098294c061da18644fde1178a32c3930a2a808cc30a95f98a049`. These identify existing evidence, not downloadable releases or DOIs. Full audit logs are retained separately. Installed Lean/stdlib was a trusted prebuilt baseline. **This metadata and public-visibility step does not rerun Lean, the cold build, or a kernel replay on another host.** Source hashes/API checks and a remote re-clone verify staging integrity, not a new mathematical proof.
 
 ## Attribution, authorship and licence
 
@@ -37,4 +37,8 @@ Keisuke Sato, Independent researcher, Japan; ORCID [0009-0005-4230-0268](https:/
 
 The attainment families are credited to Elmacıoğlu and collaborators (2024); the prior support/staircase framework is credited to Brower–McDonough–O’Neill (2025). The associated manuscript's citations and 69-result/325-reference correspondence are preserved in [the map](docs/PROOF_TO_LEAN_MAP.json). Its manuscript paths and locations refer to the separately retained R2 paper package, which is not included in this source repository. No exhaustive priority or novelty clearance is asserted.
 
-Original licensable Lean proofs and related original verification code use the unmodified official [Apache License 2.0](LICENSE), with [NOTICE](NOTICE). The author declares that these original project sources contain no copied third-party code and have no employer rights connection. This records the author's declaration, not an independent legal guarantee. Dependencies are not vendored and retain their own licences. See [rights/provenance scope](docs/RIGHTS_AND_PROVENANCE.md). The manuscript's publication licence is separate. Citation metadata for this software snapshot is in [CITATION.cff](CITATION.cff); no DOI or public release date is assigned.
+Original licensable Lean proofs and related original verification code use the unmodified official [Apache License 2.0](LICENSE), with [NOTICE](NOTICE). The author declares that these original project sources contain no copied third-party code and have no employer rights connection. This records the author's declaration, not an independent legal guarantee. Dependencies are not vendored and retain their own licences. See [rights/provenance scope](docs/RIGHTS_AND_PROVENANCE.md). The manuscript's publication licence is separate. Citation metadata for this software snapshot is in [CITATION.cff](CITATION.cff); no DOI, tag or archived software-release date is assigned.
+
+## Historical diagnostics
+
+The two frozen PowerShell scripts under `diagnostics/` are historical, host-specific audit drivers. **Do not run them directly as portable reproduction instructions.** They contain a fixed ELAN_HOME path and a broad Git trust setting. Read [the historical diagnostic notice](docs/HISTORICAL_DIAGNOSTICS.md) and use the portable commands in README and [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md). The scripts remain byte-identical to the frozen source authority.

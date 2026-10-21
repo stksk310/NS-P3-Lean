@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software snapshot, please cite this metadata; no public release or DOI is assigned."
+message: "If you use this software, please cite this source snapshot metadata; no tagged release or DOI is assigned."
 type: software
 title: "NS-P3/P4 Lean formalization: extremal presentation cardinality in embedding dimension four"
 version: "0.1.0"
@@ -12,3 +12,4 @@ keywords:
   - numerical semigroups
   - minimal presentations
   - Lean
+repository-code: "https://github.com/stksk310/NS-P3-Lean"
