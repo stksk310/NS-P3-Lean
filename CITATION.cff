@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite this source snapshot metadata; no tagged release or DOI is assigned."
+message: "If you use this software, cite the exact version used and consult its GitHub Release and Zenodo archive record for identifiers when available."
 type: software
 title: "NS-P3/P4 Lean formalization: extremal presentation cardinality in embedding dimension four"
 version: "0.1.0"

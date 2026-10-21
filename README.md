@@ -1,6 +1,6 @@
 # NS-P3/P4 Lean formalization
 
-Public source repository for the NS-P3/P4 Lean formalization, software snapshot version **0.1.0**. No tagged GitHub Release, Zenodo DOI, accepted paper, journal submission or independent human peer review is asserted here.
+Public source repository for the NS-P3/P4 Lean formalization, software snapshot version **0.1.0**. For dated versions and archival identifiers, consult the [GitHub Releases](https://github.com/stksk310/NS-P3-Lean/releases) page and its corresponding Zenodo record, when available. This repository does not assert journal acceptance or independent human peer review of the associated manuscript.
 
 This project formalizes the extremal minimal-presentation cardinality for numerical semigroups of actual embedding dimension four (the literature's shifted index e=3). For multiplicity m ≥ 4, the maximum is floor(2 + 2 sqrt(m)), and it is attained. At shifted index e=3, equality with the Macaulay bound occurs exactly for 4 ≤ m ≤ 9. The scope does not extend to arbitrary embedding dimension or classification of every attainable cardinality.
 
@@ -16,7 +16,7 @@ The frozen development contains historical `def ... : Prop` obligation statement
 
 ## Environment and reproduction
 
-The frozen package version is **0.1.0**; this is not a new release tag. It uses **Lean v4.34.0-rc1**, **472 frozen source/config files (467 Lean)** and **9 exact dependency Git pins**. The strict Lake setting `relaxedAutoImplicit = false` is unchanged. See [reproduction instructions](docs/REPRODUCIBILITY.md), [dependency pins](docs/DEPENDENCY_PINS.json), and [source manifest](docs/SOURCE_MANIFEST.sha256).
+The frozen package version is **0.1.0**. Release tags, when present, identify archived snapshots; they do not alter the frozen source. It uses **Lean v4.34.0-rc1**, **472 frozen source/config files (467 Lean)** and **9 exact dependency Git pins**. The strict Lake setting `relaxedAutoImplicit = false` is unchanged. See [reproduction instructions](docs/REPRODUCIBILITY.md), [dependency pins](docs/DEPENDENCY_PINS.json), and [source manifest](docs/SOURCE_MANIFEST.sha256).
 
 After provisioning the exact toolchain and pinned dependencies:
 
@@ -37,7 +37,7 @@ Keisuke Sato, Independent researcher, Japan; ORCID [0009-0005-4230-0268](https:/
 
 The attainment families are credited to Elmacıoğlu and collaborators (2024); the prior support/staircase framework is credited to Brower–McDonough–O’Neill (2025). The associated manuscript's citations and 69-result/325-reference correspondence are preserved in [the map](docs/PROOF_TO_LEAN_MAP.json). Its manuscript paths and locations refer to the separately retained R2 paper package, which is not included in this source repository. No exhaustive priority or novelty clearance is asserted.
 
-Original licensable Lean proofs and related original verification code use the unmodified official [Apache License 2.0](LICENSE), with [NOTICE](NOTICE). The author declares that these original project sources contain no copied third-party code and have no employer rights connection. This records the author's declaration, not an independent legal guarantee. Dependencies are not vendored and retain their own licences. See [rights/provenance scope](docs/RIGHTS_AND_PROVENANCE.md). The manuscript's publication licence is separate. Citation metadata for this software snapshot is in [CITATION.cff](CITATION.cff); no DOI, tag or archived software-release date is assigned.
+Original licensable Lean proofs and related original verification code use the unmodified official [Apache License 2.0](LICENSE), with [NOTICE](NOTICE). The author declares that these original project sources contain no copied third-party code and have no employer rights connection. This records the author's declaration, not an independent legal guarantee. Dependencies are not vendored and retain their own licences. See [rights/provenance scope](docs/RIGHTS_AND_PROVENANCE.md). The manuscript's publication licence is separate. Citation metadata for this software snapshot is in [CITATION.cff](CITATION.cff). For release-specific DOI and dates, consult the GitHub Releases page and its Zenodo archive record. Do not assume a release DOI from the repository URL alone.
 
 ## Historical diagnostics
 
