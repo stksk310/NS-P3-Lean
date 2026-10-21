@@ -1,0 +1,15 @@
+import NSP3.SymbolicThin3
+
+#print axioms NSP3.positive_box_H_lower
+#print axioms NSP3.fullSupport_t2_no_unit_sharp
+#print axioms NSP3.fullSupport_t2_unit_profile_split
+#print axioms NSP3.fullSupport_t2_x_unit_sharp
+#print axioms NSP3.fullSupport_t2_all_pair_two_sharp
+#print axioms NSP3.fullSupport_t2_transverse_unit_sharp
+#print axioms NSP3.fullSupport_t2_two_transverse_units_sharp
+#print axioms NSP3.fullSupport_t2_non_h11_symbolic_sharp
+#print axioms NSP3.fullSupport_t2_ordered_symbolic_sharp
+#print axioms NSP3.thin23_three_corner_area_lower
+#print axioms NSP3.thin23_three_corner_minimal_shape
+#print axioms NSP3.fullSupport_t3_balanced_h11_lower
+#print axioms NSP3.fullSupport_t3_balanced_h11_strict_height_sharp

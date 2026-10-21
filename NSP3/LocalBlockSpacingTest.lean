@@ -1,0 +1,21 @@
+import NSP3.LocalBlockSpacing
+
+namespace NSP3
+
+#check pair12LocalReturn_step_up
+#check pair12LocalReturn_step_down
+#check pair13LocalReturn_step_up
+#check pair13LocalReturn_step_down
+#check pair23LocalReturn_step_up
+#check pair23LocalReturn_step_down
+#check pair12ExactAdjacent_residue
+#check pair13ExactAdjacent_residue
+#check pair23ExactAdjacent_residue
+#check pair12ExactAdjacent_step_up
+#check pair12ExactAdjacent_step_down
+#check pair13ExactAdjacent_step_up
+#check pair13ExactAdjacent_step_down
+#check pair23ExactAdjacent_step_up
+#check pair23ExactAdjacent_step_down
+
+end NSP3

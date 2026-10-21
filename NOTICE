@@ -1,0 +1,4 @@
+NS-P3/P4: original Lean proof sources and related verification code
+Copyright 2026 Keisuke Sato
+
+Apache License 2.0 is selected for original project contributions the author is authorized to license. Third-party material retains its own copyright, licence and notice terms. Dependencies are not bundled. This notice does not relicense third-party material or establish ownership. The author declares no copied third-party code and no employer rights connection; see docs/RIGHTS_AND_PROVENANCE.md for scope.

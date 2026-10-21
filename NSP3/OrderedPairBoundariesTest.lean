@@ -1,0 +1,21 @@
+import NSP3.OrderedPairBoundaries
+
+namespace NSP3
+
+#check orderedPair12Boundary
+#check orderedPair13Boundary
+#check orderedPair23Boundary
+#check orderedPair12Boundary_x_strictMono
+#check orderedPair12Boundary_y_strictAnti
+#check orderedPair13Boundary_x_strictMono
+#check orderedPair13Boundary_z_strictAnti
+#check orderedPair23Boundary_y_strictMono
+#check orderedPair23Boundary_z_strictAnti
+#check pair12Alpha_nondec
+#check pair12Gamma_noninc
+#check pair13Alpha_nondec
+#check pair13Gamma_noninc
+#check pair23Alpha_nondec
+#check pair23Gamma_noninc
+
+end NSP3

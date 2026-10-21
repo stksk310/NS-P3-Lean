@@ -1,0 +1,12 @@
+import NSP3.SymbolicT3AllNonunit
+
+#print axioms NSP3.t3_nonbalanced_h11_H_lower
+#print axioms NSP3.fullSupport_t3_nonbalanced_h11_lower
+#print axioms NSP3.fullSupport_t3_nonbalanced_h11_sharp
+#print axioms NSP3.t3_h11_polynomial_identity
+#print axioms NSP3.fullSupport_t3_h11_ge4_sharp
+#print axioms NSP3.t3_one_unit_exception_H_lower
+#print axioms NSP3.fullSupport_t3_one_unit_exception_lower
+#print axioms NSP3.fullSupport_t3_one_unit_exception_sharp
+#print axioms NSP3.fullSupport_t3_positive_box_yz_lower
+#print axioms NSP3.fullSupport_t3_no_unit_ge6_sharp

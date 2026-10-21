@@ -1,0 +1,24 @@
+import NSP3.FullEdgeCollision
+
+namespace NSP3
+
+#check fullAxisExcess1
+#check fullAxisExcess2
+#check fullAxisExcess3
+#check positiveJump_bound_of_mixed
+#check plane12_positiveJump_bound
+#check plane13_positiveJump_bound
+#check plane12_positiveJump_bound_fullSupport
+#check plane13_positiveJump_bound_fullSupport
+#check pair12BlockReturn
+#check pair13BlockReturn
+#check pair12BlockReturn_adjacent_residue
+#check pair13BlockReturn_adjacent_residue
+#check plane12_positiveJump_of_exactBlock
+#check plane13_positiveJump_of_exactBlock
+#check twoAxis_standard_collision
+#check fullSupport_twoAxisCollision
+#check fullSupport_twoAxisCollision_of_budget
+#check fullSupport_mixedExactBlocks_impossible
+
+end NSP3

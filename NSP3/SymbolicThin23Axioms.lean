@@ -1,0 +1,16 @@
+import NSP3.SymbolicThin23Endpoint
+import NSP3.SymbolicThin23Balanced
+#print axioms NSP3.thin23_unit_step_base
+#print axioms NSP3.thin23_height_unit_step
+#print axioms NSP3.thin23_lifted_columns_lower
+#print axioms NSP3.long_face_axis_joint_unit
+#print axioms NSP3.support_resources_card_lower
+#print axioms NSP3.thin23_disjoint_resource_lower
+#print axioms NSP3.fullSupport_t2_h11_lower
+#print axioms NSP3.thin23_nonbalanced_arithmetic
+#print axioms NSP3.fullSupport_t2_h11_nonbalanced_sharp
+#print axioms NSP3.thin23_t2_transverse_axis_unit
+#print axioms NSP3.fullSupport_t2_h11_endpoint_sharp
+#print axioms NSP3.thin23_failure_forces_balanced_equality
+#print axioms NSP3.fullSupport_t2_h11_balanced_equality_impossible
+#print axioms NSP3.fullSupport_t2_h11_sharp

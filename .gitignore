@@ -1,0 +1,39 @@
+# Dependencies and compiler products
+.lake/
+*.olean
+*.olean.*
+*.ilean
+*.ilean.*
+*.c
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.ir
+*.bc
+build/
+dist/
+# Local audit artifacts and archives
+__pycache__/
+*.pyc
+.cache/
+*.log
+logs/
+*.zip
+*.7z
+*.tar
+*.gz
+# Credentials, local configuration and private directories
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials*
+secrets*
+private/
+.idea/
+.vscode/

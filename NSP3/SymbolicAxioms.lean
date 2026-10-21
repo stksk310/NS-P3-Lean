@@ -1,0 +1,19 @@
+import NSP3.SymbolicProjection
+import NSP3.SymbolicFerrersRank
+import NSP3.SymbolicJointAxes
+import NSP3.SymbolicTerminalRectangle
+import NSP3.SymbolicResources
+open NSP3
+#print axioms fullSupport_actual_projection_lifting
+#print axioms rankCutPhi_le_cost
+#print axioms le_rankCutPhi
+#print axioms rankCutPhi_first_diagonal
+#print axioms three_axis_pressure_lower
+#print axioms ferrers_face_axis_pressure
+#print axioms pair12_face_axis_pressure
+#print axioms pair13_face_axis_pressure
+#print axioms pair23_face_axis_pressure
+#print axioms fullSupport_joint_axis_pressure
+#print axioms pair12_high_return_bounds
+#print axioms pair12_terminal_rectangle_separation
+#print axioms fullSupport_axis_resource_lower
