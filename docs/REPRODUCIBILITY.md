@@ -1,24 +1,21 @@
-# Source integrity and Lean reproduction
+# Reproduction and evidence: v0.2.0
 
-The project root contains lakefile.toml, lean-toolchain and lake-manifest.json. Preserve their exact bytes. The source manifest lists only the 472 frozen source/config files; additional staging metadata is recorded in the separate private-staging evidence package.
+The current source authority is the `project/` tree in `NS_P3_TOR_BETTI_COMPLETION_20261116.zip`, not the older repository root from v0.1.0. All 575 Lean files, the toolchain, Lake configuration, and dependency manifest are copied byte for byte. The internal Lake package version `0.0.1` is preserved as part of this configuration; the scholarly software release is v0.2.0.
 
-For byte-exact Windows checkouts, use `git -c core.autocrlf=false clone <the actual authorized repository URL>`. The staging and verification clones use core.autocrlf=false. A default Git newline conversion can otherwise change working-tree hashes even when blob bytes are unchanged.
+The release provides:
 
-Run `python -B docs/VERIFY_SOURCE.py .` and `python -B -O docs/VERIFY_SOURCE.py .` for the 472-file manifest, nine pins, 69 result records and 325 source-declaration references. This script uses only the Python standard library and does not invoke Lean. The full repository inventory also includes documentation and citation/licence metadata.
+- `P3_PREPRINT.pdf`: the 21-page manuscript dated 18 November 2026.
+- `P3_PREPRINT_SOURCE_20261118.zip`: TeX and build instructions.
+- `NS_P3_PREPRINT_20261118.zip`: frozen paper, scripts, editorial/PDF checks, and the unchanged Lean supplement.
+- `NS_P3_TOR_BETTI_COMPLETION_20261116.zip`: source, original execution receipts/logs, manifest and read-only verifier.
+- `PUBLICATION_SHA256SUMS.txt`: hashes of the release files.
 
-Install the exact Lean toolchain named in lean-toolchain. Provision the exact nine dependency revisions in docs/DEPENDENCY_PINS.json and lake-manifest.json. The Lake require entry is not permission to update the resolved pins. A first network-dependent setup may fetch those sources; an offline rebuild requires pre-provisioned pinned dependencies and the installed toolchain. Do not claim an empty-machine offline build from this source-only repository alone.
+For a new environment, use the commands in the root README. They are portable intended build commands, not a claim of a completed dependency-cold build during publication. Never run `lake update` to replace the pinned dependency revisions. For the frozen supplement, its `replay_new.ps1` accepts explicit dependency-package and matching-source V03 baseline library paths and creates new timestamped receipts. Its default paths are host-specific. The original `run_lean.ps1` runner preserves existing receipts. Some historical successful executions had no stdout file; the existing `stdout_file_present` field states that fact rather than inventing logs.
 
-From a fresh workspace without project/dependency build products, use:
+The Tor completion's existing evidence covers 52 added Lean files, 523 preserved baseline files and 17 principal standard-axiom closures. It uses a matching-source warm baseline and cached dependencies on the same host. It is not a full dependency-cold rebuild or an independent-host check. The formal proofs use genuine categorical Tor, finite-dimensionality and explicit Koszul/conormal/socle comparisons. Their scope is all fields of carrier Type0, arbitrary characteristic.
 
-```sh
-lake --no-cache build NSP3.P3Main NSP3.L12Final NSP3.P4Final
-lake --no-cache build NSP3
-lake env lean NSP3/P3FinalAxioms.lean
-lake env lean NSP3/P4Axioms.lean
-```
+`docs/tor/RESULT.json` and the preserved scope map retain their original paths relative to the frozen supplement, where the referenced logs and files can be found. They are not newly generated publication receipts. The preprint editorial/PDF checks under `docs/preprint/` likewise retain their original preprint-package context. The source-map manuscript SHA refers to V03; the preprint body and bibliography are identical and only its front matter/disclosures changed.
 
-For strict per-file checking, every project Lean file must be checked under the frozen Lake options, including relaxedAutoImplicit=false, with dependencies in topological order. Merely checking selected main targets is not a repeat of the historical all-467-file strict audit. Individual axiom outputs in that accepted evidence used only propext, Classical.choice and Quot.sound, or no axioms. Rerun and retain actual outputs before making a new axiom/rebuild claim.
+`tools/verify_publication.py` checks this checkout's release manifest, all 575 source identities, exact dependency pins and the manuscript hash. It is read-only and works under `python -O`. It does not execute Lean. The finite-check scripts are also read-only in their normal mode and must receive `--source manuscript/P3_PREPRINT.tex`.
 
-Historical accepted receipts (not rerun in this staging phase): 467 strict file checks, 866 axiom outputs, 33 drivers, nine pins, inherited installed Lean/stdlib baseline. The R2 and cold archive SHA identifiers are in README. Hash checks and a same-host remote clone do not constitute independent human refereeing or a separate-host Lean kernel replay. The private-staging phase intentionally does not run a new Lean smoke/build test.
-
-Frozen historical diagnostic scripts in `diagnostics/` retain a host-specific ELAN_HOME setting and their original Git trust setting. They are included unchanged to preserve the 472-file source authority, not executed by this private-staging workflow. Use the portable commands above with your own environment. Review the two inherited host-path strings before any future public visibility change; this snapshot does not certify that every frozen file is free of host-specific text.
+Historical v0.1.0 documentation and its verifier are stored under `docs/historical/v0.1.0/`; run that verifier only against the unchanged v0.1.0 checkout. Old manuscript line numbers and old numerical counts do not describe this release.

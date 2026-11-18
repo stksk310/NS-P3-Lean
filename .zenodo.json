@@ -1,0 +1,35 @@
+{
+  "title": "NS-P3 Lean: extremal relations and actual Tor Betti numbers",
+  "upload_type": "software",
+  "version": "0.2.0",
+  "publication_date": "2026-11-19",
+  "creators": [
+    {
+      "name": "Sato, Keisuke",
+      "affiliation": "Independent researcher, Japan",
+      "orcid": "0009-0005-4230-0268"
+    }
+  ],
+  "license": "Apache-2.0",
+  "access_right": "open",
+  "description": "<p>Lean companion to <em>Extremal relations and Betti numbers of four-generated numerical semigroups</em>. This version integrates the adopted 21-page manuscript development and the actual categorical Tor / total Betti extension. It includes 575 Lean source files with the exact Lean toolchain and nine dependency Git pins.</p><p>Over every field with carrier Type0, the development proves actual Tor finiteness, identities (1, eta, eta+tau-1, tau), higher vanishing, field independence, simultaneous upper bounds, known-family tuples and attained extremal windows. It does not determine the exact second/third Betti maxima or classify all Betti tuples.</p><p>Existing new-module evidence is same-host, against a matching-source warm V03 baseline and cached dependencies; it is not a dependency-cold, full-baseline or independent-host replay. Substantial ChatGPT/Codex assistance covered research, proofs, Lean, verification and writing. AI checks are author-side checks, not independent human peer review. Original software is Apache 2.0; the included preprint PDF/TeX is separately CC BY 4.0.</p>",
+  "keywords": [
+    "numerical semigroups",
+    "minimal presentations",
+    "Betti numbers",
+    "Tor",
+    "Lean"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/stksk310/NS-P3-Lean/tree/v0.2.0",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.24346041",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ]
+}

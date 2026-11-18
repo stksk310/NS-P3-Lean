@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, cite the exact version used and consult its GitHub Release and Zenodo archive record for identifiers when available."
+type: software
+title: "NS-P3/P4 Lean formalization: extremal presentation cardinality in embedding dimension four"
+version: "0.1.0"
+authors:
+  - family-names: Sato
+    given-names: Keisuke
+    orcid: "https://orcid.org/0009-0005-4230-0268"
+license: Apache-2.0
+keywords:
+  - numerical semigroups
+  - minimal presentations
+  - Lean
+repository-code: "https://github.com/stksk310/NS-P3-Lean"

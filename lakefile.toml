@@ -1,6 +1,6 @@
-name = "NSP3Lean"
-version = "0.1.0"
-defaultTargets = ["NSP3"]
+name = "P3TorCompletion"
+version = "0.0.1"
+defaultTargets = ["P3Betti"]
 
 [leanOptions]
 relaxedAutoImplicit = false
@@ -12,3 +12,10 @@ rev = "v4.34.0-rc1"
 
 [[lean_lib]]
 name = "NSP3"
+
+[[lean_lib]]
+name = "P3TorSpike"
+roots = ["P3TorSpike.FinalChecks"]
+
+[[lean_lib]]
+name = "P3Betti"

@@ -1,0 +1,447 @@
+{
+  "status": "TOR_TOTAL_BETTI_PASS_WITH_EXACT_SCOPE",
+  "new_sources_checked": 52,
+  "preserved_base_lean_sources": 523,
+  "final_axiom_closures_checked": 17,
+  "final_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "field_scope": "k : Type (universe0), Field k; arbitrary characteristic",
+  "execution_scope": "Fresh new-module Lean executions on the same host, against matching-source warm V03 baseline and cached dependencies; not a dependency-cold/full-baseline/independent-host replay",
+  "sources": [
+    {
+      "source": "P3TorSpike/AugmentedQuotient.lean",
+      "source_sha256": "3893119f1340239231c7f27acc6a66984141d2e6b5d47b63a0bbf6bae59ed7a5",
+      "olean_sha256": "3043b7d6a66f1128473748249214397d64873ce2c798a2a1e4cc563f220f47f6",
+      "receipt": "logs/20261116_213256_022_P3TorSpike_AugmentedQuotient.json",
+      "log": "logs/20261116_213256_022_P3TorSpike_AugmentedQuotient.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/BinomialChecks.lean",
+      "source_sha256": "d2b941c484c33c9d7f7d2348887ca7519cd21d0633eef3d0255543f17928efc6",
+      "olean_sha256": "1ca4174ef984d3ae68f911dac9811653fa4c53872b25b66c825f214e10e52c08",
+      "receipt": "logs/20261116_215520_940_P3TorSpike_BinomialChecks.json",
+      "log": "logs/20261116_215520_940_P3TorSpike_BinomialChecks.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/BinomialConormal.lean",
+      "source_sha256": "faa66bd3b4b2466376e4bf016109f32b365cf206266b1a936400077a2d766977",
+      "olean_sha256": "00dddf5607479e08ab126ac3cdcb6b5a068ea848ed6982cdd3453158de99c55f",
+      "receipt": "logs/20261116_213634_662_P3TorSpike_BinomialConormal.json",
+      "log": "logs/20261116_213634_662_P3TorSpike_BinomialConormal.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/BinomialCuts.lean",
+      "source_sha256": "4b71375523667e6aef3227a04a204eee25898f3b093fbda80dbfed39effc18d0",
+      "olean_sha256": "535728cad64b586aee1cacf1812a6dcc0c15889f743ea4913dbf35684d719b68",
+      "receipt": "logs/20261116_214437_742_P3TorSpike_BinomialCuts.json",
+      "log": "logs/20261116_214437_742_P3TorSpike_BinomialCuts.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/BinomialFibre.lean",
+      "source_sha256": "af8c3e9d482ebbc43a2e61f46af904594d9dc33d2ccf5e134b0cf79c8bdcac9c",
+      "olean_sha256": "e10b8bd64f9a28bdd278f863df24730cfb186e0cea614364c3673b7e342c828b",
+      "receipt": "logs/20261116_213514_296_P3TorSpike_BinomialFibre.json",
+      "log": "logs/20261116_213514_296_P3TorSpike_BinomialFibre.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/BinomialInterface.lean",
+      "source_sha256": "da4b44e2b20b6249f96ce5e49f1f428932defed2c9b4f7cf0d51043a52d62319",
+      "olean_sha256": "ccebfc993d987c7ed5bc13f7e29c7e81e7dd6ec6b634bb1a77f924a497d8d27a",
+      "receipt": "logs/20261116_214721_025_P3TorSpike_BinomialInterface.json",
+      "log": "logs/20261116_214721_025_P3TorSpike_BinomialInterface.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/BinomialKernel.lean",
+      "source_sha256": "6210429a61302c15c2c45c723456e7d58584b2b177037cef24d2ad672f300df1",
+      "olean_sha256": "be5b4a7ccb1996efbdefcc9874db8d91d23e61e515e19e6d276c6f6e13b90663",
+      "receipt": "logs/20261116_213344_772_P3TorSpike_BinomialKernel.json",
+      "log": "logs/20261116_213344_772_P3TorSpike_BinomialKernel.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/BinomialMinimality.lean",
+      "source_sha256": "1af68399f2f45001af221abecf194aee146008989498bf178f0614cb13b9df6f",
+      "olean_sha256": "dd117eccfc0471721b4a3466b6ae241cadc2e461d9c69491bdc12e5da8f932e2",
+      "receipt": "logs/20261116_214750_099_P3TorSpike_BinomialMinimality.json",
+      "log": "logs/20261116_214750_099_P3TorSpike_BinomialMinimality.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/BinomialSection.lean",
+      "source_sha256": "c484b52e09ffe18510a287f2968ef4e626b244bdfffbc3f41825e9fe65eb395f",
+      "olean_sha256": "32d1d9b0bb35579a4f5ce5e318639b48f93e1c143e406bbaadeb88237df551de",
+      "receipt": "logs/20261116_215141_922_P3TorSpike_BinomialSection.json",
+      "log": "logs/20261116_215141_922_P3TorSpike_BinomialSection.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/BinomialTuple.lean",
+      "source_sha256": "0ba15ab84d9a352c6a0cdcf4a7b61f542a879348a4d45edcd061b963f2914788",
+      "olean_sha256": "ae5067106acda836e39b88c358aea22e36f242e09a66c986ec59e1ef9cc679ec",
+      "receipt": "logs/20261116_215414_315_P3TorSpike_BinomialTuple.json",
+      "log": "logs/20261116_215414_315_P3TorSpike_BinomialTuple.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/BinomialVars.lean",
+      "source_sha256": "0dfea5b1f21b95e3d2ea02f1cbf533db9acfc5d7fa451a65447647ff87f2996b",
+      "olean_sha256": "51eea633247954ab8cbd4b0ddbc80fe07a3076c6dfd391499e5b23c5faf17747",
+      "receipt": "logs/20261116_215046_368_P3TorSpike_BinomialVars.json",
+      "log": "logs/20261116_215046_368_P3TorSpike_BinomialVars.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/FinalChecks.lean",
+      "source_sha256": "04f4e75e1ff12ecb3d7b0ab9b23407bfa35187d6b731353f99b44c77196dd46b",
+      "olean_sha256": "5567e3975e79e29ac2986368e9b17752c43dd9d98f0bdba63d8e0222980e3164",
+      "receipt": "logs/20261116_222055_970_P3TorSpike_FinalChecks.json",
+      "log": "logs/20261116_222055_970_P3TorSpike_FinalChecks.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/HomologyDimension.lean",
+      "source_sha256": "e0bcc000dcc086f240f453c796fd327cbcd581a1c65b401299e85983d4e561fc",
+      "olean_sha256": "9aee9fc1f147abe7f4b1bb7edb435cb31961c69f9878a225cbc3cfd5619c3f8b",
+      "receipt": "logs/20261116_212732_839_P3TorSpike_HomologyDimension.json",
+      "log": "logs/20261116_212732_839_P3TorSpike_HomologyDimension.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/KoszulAugmentation.lean",
+      "source_sha256": "b4299148ddbe6294d081936f79773b45fce6101720472a1f9db64650ae1ef46a",
+      "olean_sha256": "8599d75cac5a62792f8862bd5212e3d0aea9ff63c2b3b0c7cda37780049af899",
+      "receipt": "logs/20261116_214704_752_P3TorSpike_KoszulAugmentation.json",
+      "log": "logs/20261116_214704_752_P3TorSpike_KoszulAugmentation.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/KoszulBaseChange.lean",
+      "source_sha256": "c9b57d0c7878cb578d7d13ce4ccf9fe978386e7e7ecc363d4e782f1998fffa07",
+      "olean_sha256": "d5a738a852890ab425cfe203627a752f1329f2ed4e95a1e6ab45a485820bbe4e",
+      "receipt": "logs/20261116_214625_806_P3TorSpike_KoszulBaseChange.json",
+      "log": "logs/20261116_214625_806_P3TorSpike_KoszulBaseChange.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/KoszulChecks.lean",
+      "source_sha256": "6056273a2333207c8bfad171554137affbf6842803844183ca487c891599eea7",
+      "olean_sha256": "ae6d9cd6d8f60ee0eccb7a711ab74657d3cab2e95cacea841c52cd28fac7cd15",
+      "receipt": "logs/20261116_220238_443_P3TorSpike_KoszulChecks.json",
+      "log": "logs/20261116_220238_443_P3TorSpike_KoszulChecks.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/KoszulComplex.lean",
+      "source_sha256": "74e8888b37119facfded60cbc5bf584bcb6faa6fbe0a38fdf9a1d053b944be6a",
+      "olean_sha256": "f954016385df624e04c89bf6506db8be99339bc5d83f0d8d8dda71faefc9495a",
+      "receipt": "logs/20261116_214204_483_P3TorSpike_KoszulComplex.json",
+      "log": "logs/20261116_214204_483_P3TorSpike_KoszulComplex.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/KoszulCoordinates.lean",
+      "source_sha256": "a3db6f4dcff47d762d8533ba982022237652ea034e9d33eefdf7c0a0f79aba63",
+      "olean_sha256": "20c97548ff961218f44468f330d31c9a530344e5e433aed1a3f50d11a3a9c376",
+      "receipt": "logs/20261116_215929_240_P3TorSpike_KoszulCoordinates.json",
+      "log": "logs/20261116_215929_240_P3TorSpike_KoszulCoordinates.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/KoszulCube.lean",
+      "source_sha256": "6deef3428fa48a2dbb9a75a9bf539f7229ff6d15d592afb003bd73951d65fe03",
+      "olean_sha256": "77b2509a7eea18e8710f37190847c3f7cde867e8e33b328df4816c4512859eb7",
+      "receipt": "logs/20261116_213240_181_P3TorSpike_KoszulCube.json",
+      "log": "logs/20261116_213240_181_P3TorSpike_KoszulCube.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/KoszulOperators.lean",
+      "source_sha256": "618f28e69e4f48fe7984121f1e0686ea424461b09adb60e67f66aaef4259c6c9",
+      "olean_sha256": "5f423817ead97b509f070c67b6d99a075754a8e32827d8fe4d067c964bea89ca",
+      "receipt": "logs/20261116_213042_593_P3TorSpike_KoszulOperators.json",
+      "log": "logs/20261116_213042_593_P3TorSpike_KoszulOperators.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/KoszulRelationsChecks.lean",
+      "source_sha256": "645a5085df08b1690a9fcd78e26cf44852368c82ef2af3542e868e26638e93a5",
+      "olean_sha256": "ce3e49b97bdaacf3aa017120bcbb33a6a6e4d9ca5b952e0608a3b7f16267e79e",
+      "receipt": "logs/20261116_221344_429_P3TorSpike_KoszulRelationsChecks.json",
+      "log": "logs/20261116_221344_429_P3TorSpike_KoszulRelationsChecks.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/KoszulRelationsExact.lean",
+      "source_sha256": "8794628c86f5b1104049f1fbddc2cb46985de269e9cfc07ebaddbe8296dfb3f6",
+      "olean_sha256": "c8f49f41f1c9a1ee965a42191a20662a694803777846d2656fbad8b9a4264be9",
+      "receipt": "logs/20261116_220632_390_P3TorSpike_KoszulRelationsExact.json",
+      "log": "logs/20261116_220632_390_P3TorSpike_KoszulRelationsExact.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/KoszulRelationsH1.lean",
+      "source_sha256": "90fcba9565d6aba3d32070b76fe5e32b245404b60e52ab1c2f4ca6ac1ad61c19",
+      "olean_sha256": "ea24cdc49f3b09d8c8c1fa9988818520f4bf971b92e14dc356e40b01424e7073",
+      "receipt": "logs/20261116_221208_159_P3TorSpike_KoszulRelationsH1.json",
+      "log": "logs/20261116_221208_159_P3TorSpike_KoszulRelationsH1.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/KoszulRelationsLift.lean",
+      "source_sha256": "c97101ec631cdc840d237011dda821d01f0cfa1d0c380ef92c94516c7c9daea0",
+      "olean_sha256": "f258f1ae40210b8f3a504ccce430c2e60328c05eeb8d61159290d627917f0ea5",
+      "receipt": "logs/20261116_215545_160_P3TorSpike_KoszulRelationsLift.json",
+      "log": "logs/20261116_215545_160_P3TorSpike_KoszulRelationsLift.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/KoszulRelationsQuotient.lean",
+      "source_sha256": "49bed4c8f4e79e312be341525905809d5b3264b23adfead9c133447accfa6db2",
+      "olean_sha256": "67a7b98d431e1502e402510d33e3ba84629f1b3112dd0f84bfc0208d85fae763",
+      "receipt": "logs/20261116_220318_823_P3TorSpike_KoszulRelationsQuotient.json",
+      "log": "logs/20261116_220318_823_P3TorSpike_KoszulRelationsQuotient.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/KoszulResolution.lean",
+      "source_sha256": "f378d2d6d05456d07278f1a4137ae4eaa18673baae118c337555c86af76b79f7",
+      "olean_sha256": "dd754d82a980724e56b367935fb85b52b5bee3069bdd4555a8136741bf539496",
+      "receipt": "logs/20261116_215649_738_P3TorSpike_KoszulResolution.json",
+      "log": "logs/20261116_215649_738_P3TorSpike_KoszulResolution.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/KoszulScalarRestriction.lean",
+      "source_sha256": "489dd287e71000bdf8e1bdfd56a24a394dcb88dfd4093c7147370da014736f17",
+      "olean_sha256": "bb4104f02fe900c8baa397781d007eea0946e753d9d744710e026764fa44e439",
+      "receipt": "logs/20261116_215201_416_P3TorSpike_KoszulScalarRestriction.json",
+      "log": "logs/20261116_215201_416_P3TorSpike_KoszulScalarRestriction.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/KoszulTensor.lean",
+      "source_sha256": "388a32bbffbe1d34be679de44a8a0456cfdb5df47632af9d0b8e7ddc00a9ba06",
+      "olean_sha256": "2479646f32f2f6d0ea8162ebb741a2b407f0e740ce7aaae92f36f0ea7b2b4808",
+      "receipt": "logs/20261116_214934_616_P3TorSpike_KoszulTensor.json",
+      "log": "logs/20261116_214934_616_P3TorSpike_KoszulTensor.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/KoszulVanishing.lean",
+      "source_sha256": "054dcd3b032ef0a83251d6541d4f2ce7ab04dabfbe6ab59c02a514fab3df9621",
+      "olean_sha256": "2337c7ec93c7ef9b1828fea932e4a251975e92fee16b9883ba9dc40649cef913",
+      "receipt": "logs/20261116_220913_792_P3TorSpike_KoszulVanishing.json",
+      "log": "logs/20261116_220913_792_P3TorSpike_KoszulVanishing.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/ReductionComplex.lean",
+      "source_sha256": "090d464b4d258ec5611d8d8a45a003ffe4c1b4147939c1cc9eb7ee20ebd2a34b",
+      "olean_sha256": "b506db59a6807e6827351506fe6c986225cc812760f57ebc574422e19709cf7e",
+      "receipt": "logs/20261116_213403_914_P3TorSpike_ReductionComplex.json",
+      "log": "logs/20261116_213403_914_P3TorSpike_ReductionComplex.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/ReductionHomology.lean",
+      "source_sha256": "00ccbf34d7ec4e91864d11a022da556d608bae302d93c954b5d5a01542084742",
+      "olean_sha256": "1e660eb469f2935d21215379648a7bbec3b61cdbb9679f30a527084c0f28a2ce",
+      "receipt": "logs/20261116_213641_985_P3TorSpike_ReductionHomology.json",
+      "log": "logs/20261116_213641_985_P3TorSpike_ReductionHomology.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/RegularReductionActual.lean",
+      "source_sha256": "342a45471fafc124de06c6ce22782cfdea918dc81b53c98c074ac8e6ad3c73c3",
+      "olean_sha256": "70058526d97f6eafa789fe3ae3f647bec5cca049bb4da258c7a809055cb8add8",
+      "receipt": "logs/20261116_221036_964_P3TorSpike_RegularReductionActual.json",
+      "log": "logs/20261116_221036_964_P3TorSpike_RegularReductionActual.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/RegularReductionAudit.lean",
+      "source_sha256": "e5cd62457fe503adf4d1a4fa53702c445a1fc7fb5a7e5dcf93e392d404dc2696",
+      "olean_sha256": "6da20292c8490002908df6f0b38281ceed4ae0fe091b1d0d9fe0b6977428f0b8",
+      "receipt": "logs/20261116_221114_215_P3TorSpike_RegularReductionAudit.json",
+      "log": "logs/20261116_221114_215_P3TorSpike_RegularReductionAudit.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/RegularReductionComparison.lean",
+      "source_sha256": "594ed010e8a9fc6433194e4c0be0bfcc71f7762b97b6e91b595bce59fbce0c45",
+      "olean_sha256": "8a5c19517ab080483fb930a2898c2694a2e07d29237e9f1a0aecb85d26d3f09a",
+      "receipt": "logs/20261116_220818_052_P3TorSpike_RegularReductionComparison.json",
+      "log": "logs/20261116_220818_052_P3TorSpike_RegularReductionComparison.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/RegularReductionCone.lean",
+      "source_sha256": "bc253ccf756610479eb3d22a525eac03bf9440692d9f8e4c6ee046226456a1b4",
+      "olean_sha256": "6f25fd24232def2a826b895d0a0e845df2acd8db1186c5a1338b1fe2d3157374",
+      "receipt": "logs/20261116_214624_195_P3TorSpike_RegularReductionCone.json",
+      "log": "logs/20261116_214624_195_P3TorSpike_RegularReductionCone.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/RegularReductionHigher.lean",
+      "source_sha256": "bb3f3986463595376e39cc1c614c201e7c8b52ac622b08caa8055f9d7eaf35d3",
+      "olean_sha256": "87133be586ffbeefff7496c5ed2ae3d9cf989ef9a58fd90fdca6a8b2af3e19e7",
+      "receipt": "logs/20261116_215137_315_P3TorSpike_RegularReductionHigher.json",
+      "log": "logs/20261116_215137_315_P3TorSpike_RegularReductionHigher.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/RegularReductionLocal.lean",
+      "source_sha256": "8d38bc7ddb264cda35c994c0bffbc185e6989b283a07521866c7ab68498cb582",
+      "olean_sha256": "d16fa72580061ae794f3da0b351818b8b621a318c24e9ad0e9461f024bd5228d",
+      "receipt": "logs/20261116_214235_807_P3TorSpike_RegularReductionLocal.json",
+      "log": "logs/20261116_214235_807_P3TorSpike_RegularReductionLocal.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/RegularReductionQuotient.lean",
+      "source_sha256": "59d374d9eba7ab1c864951474bf7eaebad23a26dd214bf36738f396dbb5a936f",
+      "olean_sha256": "c3aedcb70a37c1fe5be8835381c4ef0d4887b354454f52d613007e0d663ef8ad",
+      "receipt": "logs/20261116_214925_655_P3TorSpike_RegularReductionQuotient.json",
+      "log": "logs/20261116_214925_655_P3TorSpike_RegularReductionQuotient.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/RegularReductionSemigroup.lean",
+      "source_sha256": "3f5c4a5710cce074539abec683ee672f06b6d14cc72c95f574b59561ccd8c90b",
+      "olean_sha256": "df7327f8eab166151234772668bf04ba9f951d2b26c9d788837d63d597ecb45e",
+      "receipt": "logs/20261116_215249_123_P3TorSpike_RegularReductionSemigroup.json",
+      "log": "logs/20261116_215249_123_P3TorSpike_RegularReductionSemigroup.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/RegularReductionTop.lean",
+      "source_sha256": "467be4375f542719c5e4f8d4b7b653b8605774d4ea7ab5d08e9f29b6f0d92d4d",
+      "olean_sha256": "5a3ec6f66e09ca6647aa08b84e7334ecdd986453b11f0f38964e1ff28ebb0dd9",
+      "receipt": "logs/20261116_215454_654_P3TorSpike_RegularReductionTop.json",
+      "log": "logs/20261116_215454_654_P3TorSpike_RegularReductionTop.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/SemigroupTorKoszul.lean",
+      "source_sha256": "87c796a4d4f0b0da23e6725b2fbcdc4aa9b9bb85c68f505ab7352a360454fd80",
+      "olean_sha256": "13ebae49b4e6fad9accb31850387814d6ee8b614082bfc790a6cc3ec4a815fb1",
+      "receipt": "logs/20261116_220432_116_P3TorSpike_SemigroupTorKoszul.json",
+      "log": "logs/20261116_220432_116_P3TorSpike_SemigroupTorKoszul.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/SocleAudit.lean",
+      "source_sha256": "9c6040e45840f54b840b1b5a2e6fc619abf2c8c84e3070ef61589d024087d54b",
+      "olean_sha256": "240818accf208ae558aed150a6638a29b45ad4a52aa3d1b523f8e0cdb97d9099",
+      "receipt": "logs/20261116_213445_181_P3TorSpike_SocleAudit.json",
+      "log": "logs/20261116_213445_181_P3TorSpike_SocleAudit.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/SocleBasic.lean",
+      "source_sha256": "5280b018aa897dc0c4108ca03c35699e9606702372d699e40096d6ca9b94efe7",
+      "olean_sha256": "bdcf209fab697f7837c3f1a77bc2dadd6634cbdfa867b3bbc60d7f34a9a78909",
+      "receipt": "logs/20261116_213031_997_P3TorSpike_SocleBasic.json",
+      "log": "logs/20261116_213031_997_P3TorSpike_SocleBasic.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/SocleBasis.lean",
+      "source_sha256": "1144b4641574942ddbe4b8b630ef51c149a22dfdcb5cf3f7abbdebfbf8a6b7e6",
+      "olean_sha256": "4252174eb654eb335d98f119a3dd29ffbbb6691d4b37b40386a4375934c4befe",
+      "receipt": "logs/20261116_213351_159_P3TorSpike_SocleBasis.json",
+      "log": "logs/20261116_213351_159_P3TorSpike_SocleBasis.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/TerminalPF.lean",
+      "source_sha256": "7cf2e0aab3a110c1d0d18c1b861ebaac7b4e26f7992157a46f8236afab01ec2b",
+      "olean_sha256": "d66490ac1c4ce803b964d5cc13f76c850487bbea16675ad4ad50cbc6fd945894",
+      "receipt": "logs/20261116_213140_562_P3TorSpike_TerminalPF.json",
+      "log": "logs/20261116_213140_562_P3TorSpike_TerminalPF.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/TorBettiBounds.lean",
+      "source_sha256": "f5337e4520bf365a896f303666450fd77372f81c7e725bd5394248c5c8dd97a5",
+      "olean_sha256": "8b96f02a01240f3ee1109c833f45f3c690fa4f8675a0b5de2965855cbdec6c4e",
+      "receipt": "logs/20261116_221627_892_P3TorSpike_TorBettiBounds.json",
+      "log": "logs/20261116_221627_892_P3TorSpike_TorBettiBounds.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/TorBettiDefinitions.lean",
+      "source_sha256": "57d09cf65fde6c78613058c5e9c941405adf6d6412a65f575392b44b88ecfce3",
+      "olean_sha256": "d55fff765661d39280738cf370575a4523d6ded57cdec4f08fe83063bd1bc3e9",
+      "receipt": "logs/20261116_220151_024_P3TorSpike_TorBettiDefinitions.json",
+      "log": "logs/20261116_220151_024_P3TorSpike_TorBettiDefinitions.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/TorBettiExtrema.lean",
+      "source_sha256": "e11c8fd42b561a93050277bbf91472f1f54ee3d6ca9727b577b6e1f3e6dece30",
+      "olean_sha256": "93edc71bca8b1c49e169a2e47707dfe04c0fcce9ab173a79b9e83830be53aa8c",
+      "receipt": "logs/20261116_221731_489_P3TorSpike_TorBettiExtrema.json",
+      "log": "logs/20261116_221731_489_P3TorSpike_TorBettiExtrema.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/TorBettiIdentities.lean",
+      "source_sha256": "2f7902b20dbab7c1a68f75e673a98c4f031f6c0c95574ddfe2a78df66296e3d6",
+      "olean_sha256": "21ab1fd5dcc7d547fb1a6db40dc1c8ff61be7a8ffaefd69e7d963d841249cf62",
+      "receipt": "logs/20261116_221539_920_P3TorSpike_TorBettiIdentities.json",
+      "log": "logs/20261116_221539_920_P3TorSpike_TorBettiIdentities.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3TorSpike/TorReducedBetti.lean",
+      "source_sha256": "4522d71a522fa17f6c28e21283a0ffd9cd1c14497e5712171e6c5858b144a1a4",
+      "olean_sha256": "ab211803ee54bb894ed6624a4392e14fc3d0f6feff3cad9b768eebad85f7710b",
+      "receipt": "logs/20261116_221417_728_P3TorSpike_TorReducedBetti.json",
+      "log": "logs/20261116_221417_728_P3TorSpike_TorReducedBetti.log",
+      "stdout_file_present": true
+    },
+    {
+      "source": "P3TorSpike/TorResolution.lean",
+      "source_sha256": "f70baeede60edfd2bb033b82e21162a2768efd2e09a0751216d7c9541f7904b8",
+      "olean_sha256": "b94ca4d512877743a717bfbbac4cf6be6f111abc414e7d9b8d1c02a1c67825b3",
+      "receipt": "logs/20261116_214430_828_P3TorSpike_TorResolution.json",
+      "log": "logs/20261116_214430_828_P3TorSpike_TorResolution.log",
+      "stdout_file_present": false
+    },
+    {
+      "source": "P3Betti.lean",
+      "source_sha256": "ad7a6d31857c4a5bec45b9367792d1c51c1910cf6a8933610ea38a4a92c36597",
+      "olean_sha256": "86bed29d15580e156fc2755b7d68d0ffba80cabaef90aaadc804fdc08cad48d1",
+      "receipt": "logs/20261116_221949_649_P3Betti.json",
+      "log": "logs/20261116_221949_649_P3Betti.log",
+      "stdout_file_present": true
+    }
+  ],
+  "frozen_artifacts_unchanged": {
+    "NS_P3_V03_LEAN_RECONSTRUCTION_20261116.zip": "5a96fbe3bad0f61eb33f6875019c21d52540e51511c81e4f9c7356b1d3155c9a",
+    "NS_P3_TOR_SPIKE_1H_20261116.zip": "047cebe474de6b1f9d6a075e441e5c3c7e489051b116670e1fea2d346396acdf",
+    "manuscript_improvement_v03_20261115/result/manuscript/PAPER_V03.tex": "38aec56109a57b0aa523ab35e6d219b6a249f6d980278cfab8a3770618226db9"
+  },
+  "dependency_entries_unchanged": true,
+  "lean_toolchain_pin_unchanged": true,
+  "betti_identity": "(1, eta, eta+type-1, type); zero in degrees >=4; all actual Tor objects finite",
+  "consequences": [
+    "simultaneous bounds",
+    "no-full improvement",
+    "known family tuples",
+    "attained extremal windows",
+    "coefficient-field independence"
+  ],
+  "exact_extremal_values_or_full_betti_classification_claimed": false
+}

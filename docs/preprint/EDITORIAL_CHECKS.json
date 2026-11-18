@@ -1,0 +1,18 @@
+{
+  "base_source": "C:\\LeanProjects\\Problem3Lean\\manuscript_improvement_v03_20261115\\result\\manuscript\\PAPER_V03.tex",
+  "base_sha256": "38aec56109a57b0aa523ab35e6d219b6a249f6d980278cfab8a3770618226db9",
+  "preprint_source_sha256": "d859ce510fac13a6900c75e1db05985b990b462c436a827442b81369df81fcbd",
+  "mathematical_body_byte_identical_after_utf8_decode": true,
+  "bibliography_byte_identical_after_utf8_decode": true,
+  "chomicz_entries_and_in_text_citation_preserved": true,
+  "changes": [
+    "PDF metadata and preprint date",
+    "remove abstract proof-case meta sentence",
+    "update actual Tor/Betti formalization scope and execution limits",
+    "distinguish current supplement from historical v0.1.0",
+    "clarify substantial AI assistance and author responsibility"
+  ],
+  "private_correspondence_included": false,
+  "journal_selected": false,
+  "publication_or_email_transmission_performed": false
+}

@@ -1,0 +1,37 @@
+{
+  "base_source": "C:\\LeanProjects\\Problem3Lean\\manuscript_improvement_v03_20261115\\result\\manuscript\\PAPER_V03.tex",
+  "base_sha256": "38aec56109a57b0aa523ab35e6d219b6a249f6d980278cfab8a3770618226db9",
+  "preprint_source_sha256": "d859ce510fac13a6900c75e1db05985b990b462c436a827442b81369df81fcbd",
+  "mathematical_body_byte_identical_after_utf8_decode": true,
+  "bibliography_byte_identical_after_utf8_decode": true,
+  "chomicz_entries_and_in_text_citation_preserved": true,
+  "changes": [
+    "PDF metadata and preprint date",
+    "remove abstract proof-case meta sentence",
+    "update actual Tor/Betti formalization scope and execution limits",
+    "distinguish current supplement from historical v0.1.0",
+    "clarify substantial AI assistance and author responsibility"
+  ],
+  "private_correspondence_included": false,
+  "journal_selected": false,
+  "publication_or_email_transmission_performed": false,
+  "status": "PREPRINT_READY_LOCAL",
+  "pdf_sha256": "7dba6b34e31296cd6a2b29b76bde90fdd4d9c988da90059beb667e2a08b4b46f",
+  "pages": 21,
+  "clean_source_zip_rebuild": true,
+  "build_engine": "Tectonic0.17.0, cached TeX resources, same host",
+  "fonts_embedded": true,
+  "unresolved_references": 0,
+  "build_warnings": [],
+  "visual_review": "AI visual inspection of all21 rendered pages via contact sheets, plus full pages1,15,18,21",
+  "separate_context_review": "Author-side AI editorial/source review; one minor wording finding resolved",
+  "finite_verification": "PASS on the current source; finite arithmetic only, no new Lean run",
+  "lean_kernel_run_performed_this_task": false,
+  "frozen_artifacts_unchanged": {
+    "manuscript_improvement_v03_20261115/result/manuscript/PAPER_V03.tex": "38aec56109a57b0aa523ab35e6d219b6a249f6d980278cfab8a3770618226db9",
+    "NS_P3_V03_LEAN_RECONSTRUCTION_20261116.zip": "5a96fbe3bad0f61eb33f6875019c21d52540e51511c81e4f9c7356b1d3155c9a",
+    "NS_P3_TOR_BETTI_COMPLETION_20261116.zip": "ce5ce71cb201b7f122223ea49d2a23120133dd5faefe2068cf667d6e4a34cfb8"
+  },
+  "public_upload_performed": false,
+  "new_doi_or_new_supplement_url_created": false
+}

@@ -1,0 +1,216 @@
+{
+  "pdf_sha256": "7dba6b34e31296cd6a2b29b76bde90fdd4d9c988da90059beb667e2a08b4b46f",
+  "pages": 21,
+  "fonts": {
+    "/IHAIZV+LMRoman17-Regular": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/BZIVMZ+LMRoman12-Regular": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/IXFAWU+LMRoman10-Bold": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/TQTHRL+LMRoman10-Regular": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/YEUUOC+LMMathItalic10-Regular": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/AKHCZK+LMMathSymbols10-Regular": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/VDVGTR+LMRoman10-Regular": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/CAFSZL+LMRoman12-Bold": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/DDIEWW+LMRoman8-Regular": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/FKPJSN+LMRoman10-Italic": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/PVTTLK+MSBM10": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/JAGKKY+LMMathItalic8-Regular": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/NOMARO+LMMathExtension10-Regular": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/KPXLOM+MSAM10": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/UTACNV+LMMathSymbols8-Regular": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/FZDNHS+LMRoman6-Regular": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/DZGKAF+LMSans10-Regular": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/GJMHKB+LMMono10-Regular": {
+      "embedded": true,
+      "type": "/Type1"
+    },
+    "/NITCSQ+LMMathItalic6-Regular": {
+      "embedded": true,
+      "type": "/Type1"
+    }
+  },
+  "all_fonts_embedded": true,
+  "page_checks": [
+    {
+      "page": 1,
+      "characters": 2196,
+      "outside_page_chars": 0,
+      "opening": "Extremal relations and Betti numbers of | four-generated numerical semigroups | Keisuke Sato | Independent researche"
+    },
+    {
+      "page": 2,
+      "characters": 3391,
+      "outside_page_chars": 0,
+      "opening": "The main work is to account for disjoint axis, plane and interior resources, including the narrow- | width cases"
+    },
+    {
+      "page": 3,
+      "characters": 2836,
+      "outside_page_chars": 0,
+      "opening": "3 The cyclic capacity inequality | Here D is any finite downset and the additive map \u03c3(x, y, z) = xp +yp +zp res"
+    },
+    {
+      "page": 4,
+      "characters": 2388,
+      "outside_page_chars": 0,
+      "opening": "We will use the exact row count | \u2211 | |C| = min{[r \u2212 y] , [s \u2212 z] }. (3.2) | + + | y,z\u22651 | y+z\u2264t | For example, at r \u2265 s \u2265"
+    },
+    {
+      "page": 5,
+      "characters": 2867,
+      "outside_page_chars": 0,
+      "opening": "Proof. For A \u2264 i \u2264 r \u2212 B, corners i, i + 1 are high by 3.4. By 3.7, u \u2265 A or v \u2265 B, so | i i | (r \u2212 i)u + iv \u2265 min"
+    },
+    {
+      "page": 6,
+      "characters": 3905,
+      "outside_page_chars": 0,
+      "opening": "3.2 Staircases without a full-support boundary | Lemma 3.12 (exact planes and spacing of returns). Call a pair f"
+    },
+    {
+      "page": 7,
+      "characters": 2400,
+      "outside_page_chars": 0,
+      "opening": "The empty cases t = 0, 1 give zero. For t \u2265 2, count points with y +z = u+1 \u2264 t and 1 \u2264 x \u2264 s\u2212u. | There are u c"
+    },
+    {
+      "page": 8,
+      "characters": 2976,
+      "outside_page_chars": 0,
+      "opening": "Only t = 2, d = 1 and (r, s, t) = (4, 3, 3), (5, 4, 3) remain. For t = 2, d = 1, the target is K +s and | |C| \u2265 "
+    },
+    {
+      "page": 9,
+      "characters": 2343,
+      "outside_page_chars": 0,
+      "opening": "For r \u2264 3, the full proper box gives m \u2265 (A + 1)(B + 1)(C + 1) \u2212 1 \u2265 26 > T . \u25a1 | 0 | Lemma 3.19 (only the first c"
+    },
+    {
+      "page": 10,
+      "characters": 2867,
+      "outside_page_chars": 0,
+      "opening": "where W = W (r; 1, 1) in the first orientation and W (s; 1, 1) in the second; K = 1 when r = s = 3, | and zero o"
+    },
+    {
+      "page": 11,
+      "characters": 2776,
+      "outside_page_chars": 0,
+      "opening": "Theorem 3.23 (width-two capacity). Every ordered full-support cyclic staircase with r \u2265 | s \u2265 t = 2 satisfies m "
+    },
+    {
+      "page": 12,
+      "characters": 2910,
+      "outside_page_chars": 0,
+      "opening": "In the remaining case A = r \u2212 2, B = C = 2, the term i = r \u2212 2 gives d \u2265 2r \u2212 4, improving its | 0 r | baseline on"
+    },
+    {
+      "page": 13,
+      "characters": 2502,
+      "outside_page_chars": 0,
+      "opening": "Indeed, the first two rows use (U, V, M, T ) = (0, 0, \u2265 A, 2) and (1, 0, \u2265 2A, \u2265 1); the next uses | (B \u2212 2, B \u2212"
+    },
+    {
+      "page": 14,
+      "characters": 3104,
+      "outside_page_chars": 0,
+      "opening": "Now let r = s = k \u2265 4. The row lengths are h \u2212 1, k \u2212 2, k \u2212 2, giving m \u2265 k2 + k + 4h + 3, sufficient | if h \u2265 "
+    },
+    {
+      "page": 15,
+      "characters": 2270,
+      "outside_page_chars": 0,
+      "opening": "Lemma 3.31 (finite residue obstructions). If r = s = t = 3, a full boundary which is | a permutation of (2, 2, 1"
+    },
+    {
+      "page": 16,
+      "characters": 2706,
+      "outside_page_chars": 0,
+      "opening": "3.5 Full-support widths at least four | Lemma 3.33 (quantitative core-hole capacity). In the ordered full-suppor"
+    },
+    {
+      "page": 17,
+      "characters": 3131,
+      "outside_page_chars": 0,
+      "opening": "For t = 4, this follows from (3.3) and c(4) = 1. For t = 5, there are ten rows y, z > 0, y + z \u2264 5. | \u2211 | At r = s"
+    },
+    {
+      "page": 18,
+      "characters": 2760,
+      "outside_page_chars": 0,
+      "opening": "Indeed, the positive proper box contributes abc \u2212 1 points, and its union with the punctured core | adds precise"
+    },
+    {
+      "page": 19,
+      "characters": 3364,
+      "outside_page_chars": 0,
+      "opening": "a free resolution of Q/J after restoring the original labels, by the deformation construction of [7, | Theorem 4"
+    },
+    {
+      "page": 20,
+      "characters": 2049,
+      "outside_page_chars": 0,
+      "opening": "4.2 The attainable spectrum | Corollary 4.3 (Complete attainable spectrum). Let A (m) denote the set of minimal-"
+    },
+    {
+      "page": 21,
+      "characters": 2825,
+      "outside_page_chars": 0,
+      "opening": "Formalization and reproducibility | The accompanying Lean 4.34.0-rc1 development formalizes the extremal theorem"
+    }
+  ],
+  "unresolved_reference_markers": 0,
+  "final_build_warning_lines": [],
+  "private_correspondence_names_absent": true,
+  "current_scope_text_present": true,
+  "chomicz_entries_present": true
+}
