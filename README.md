@@ -2,7 +2,9 @@
 
 Companion Lean development and preprint by **Keisuke Sato** (Independent researcher, Japan), release **v0.2.0**.
 
-**[Read the 21-page preprint](manuscript/P3_PREPRINT.pdf)** · [Preprint DOI: 10.5281/zenodo.24346041](https://doi.org/10.5281/zenodo.24346041) · [TeX source](manuscript/P3_PREPRINT.tex) · [Release files and frozen evidence](https://github.com/stksk310/NS-P3-Lean/releases/tag/v0.2.0)
+**[Read the 26-page preprint, version 2](manuscript/v2/P3_EDITORIAL_R05.pdf)** | [TeX and Lean verification materials](manuscript/v2/) | [Preprint archive](https://doi.org/10.5281/zenodo.24346040)
+
+**[Read the 21-page preprint, version 1](manuscript/P3_PREPRINT.pdf)** · [Preprint DOI: 10.5281/zenodo.24346041](https://doi.org/10.5281/zenodo.24346041) · [TeX source](manuscript/P3_PREPRINT.tex) · [Release files and frozen evidence](https://github.com/stksk310/NS-P3-Lean/releases/tag/v0.2.0)
 
 *Extremal relations and Betti numbers of four-generated numerical semigroups* (18 November 2026). No journal has been selected. The preprint and the software are separate scholarly outputs; version-specific Zenodo identifiers are listed below. The earlier software DOI [10.5281/zenodo.23549534](https://doi.org/10.5281/zenodo.23549534) is historical and predates the present Betti extension.
 
@@ -23,7 +25,7 @@ The v0.2.0 tag and downloadable source archive identify commit `411c0d6129ec383c
 | Claim | Interface |
 | --- | --- |
 | Presentation upper bound and attainment | `NSP3.P3_MAIN` |
-| Complete presentation-size spectrum | `NSP3.L12_P3_isGreatest` |
+| Complete presentation-size spectrum | `NSP3.V03.complete_spectrum` |
 | Macaulay equality range | `NSP3.P4_e3` |
 | Actual Tor identities, finiteness, vanishing | `NSP3.Betti.identities`, `.finite`, `.dimension_eq_total` |
 | Betti bounds and known-family tuples | `NSP3.Betti.upper`, `.noFull_upper`, `.realized` |
