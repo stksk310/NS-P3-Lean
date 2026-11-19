@@ -1,0 +1,308 @@
+{
+  "bibliography_keys": 17,
+  "capacity_tables": {
+    "H_formula_union_agreements": 1497,
+    "cases_sha256": "8f018ea3f92876a424150110095b65334a565dd44d370b9688b5a56723d8774c",
+    "displayed_minimizers_verified": 8,
+    "displayed_numeric_entries": 32,
+    "exact_cases_checked": 1497,
+    "profile_count": 8,
+    "profiles": [
+      {
+        "K": 18,
+        "core": 11,
+        "eligible_triples": 206,
+        "minimizers": [
+          [
+            1,
+            1,
+            4
+          ],
+          [
+            1,
+            4,
+            1
+          ],
+          [
+            4,
+            1,
+            1
+          ]
+        ],
+        "minimum_excess": 0,
+        "profile": [
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "K": 19,
+        "core": 13,
+        "eligible_triples": 196,
+        "minimizers": [
+          [
+            1,
+            5,
+            1
+          ],
+          [
+            2,
+            4,
+            1
+          ],
+          [
+            4,
+            2,
+            1
+          ],
+          [
+            5,
+            1,
+            1
+          ]
+        ],
+        "minimum_excess": 3,
+        "profile": [
+          5,
+          4,
+          4
+        ]
+      },
+      {
+        "K": 18,
+        "core": 14,
+        "eligible_triples": 181,
+        "minimizers": [
+          [
+            3,
+            4,
+            1
+          ],
+          [
+            4,
+            3,
+            1
+          ]
+        ],
+        "minimum_excess": 6,
+        "profile": [
+          6,
+          4,
+          4
+        ]
+      },
+      {
+        "K": 18,
+        "core": 14,
+        "eligible_triples": 160,
+        "minimizers": [
+          [
+            4,
+            4,
+            1
+          ]
+        ],
+        "minimum_excess": 9,
+        "profile": [
+          7,
+          4,
+          4
+        ]
+      },
+      {
+        "K": 22,
+        "core": 17,
+        "eligible_triples": 196,
+        "minimizers": [
+          [
+            5,
+            1,
+            1
+          ]
+        ],
+        "minimum_excess": 2,
+        "profile": [
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "K": 23,
+        "core": 19,
+        "eligible_triples": 181,
+        "minimizers": [
+          [
+            5,
+            2,
+            1
+          ],
+          [
+            6,
+            1,
+            1
+          ]
+        ],
+        "minimum_excess": 5,
+        "profile": [
+          6,
+          5,
+          4
+        ]
+      },
+      {
+        "K": 26,
+        "core": 23,
+        "eligible_triples": 181,
+        "minimizers": [
+          [
+            6,
+            1,
+            1
+          ]
+        ],
+        "minimum_excess": 4,
+        "profile": [
+          6,
+          6,
+          4
+        ]
+      },
+      {
+        "K": 27,
+        "core": 23,
+        "eligible_triples": 196,
+        "minimizers": [
+          [
+            1,
+            1,
+            5
+          ],
+          [
+            1,
+            5,
+            1
+          ],
+          [
+            5,
+            1,
+            1
+          ]
+        ],
+        "minimum_excess": 5,
+        "profile": [
+          5,
+          5,
+          5
+        ]
+      }
+    ],
+    "scope": "Exact finite BF/H arithmetic; not a proof of the unbounded capacity theorem.",
+    "status": "PASS"
+  },
+  "checks": {
+    "verify_A3_8.py": {
+      "rows": [
+        {
+          "first_maximizer": [
+            1,
+            25
+          ],
+          "maximum_image_size": 23,
+          "modulus": 30,
+          "point_count": 24,
+          "set": "P",
+          "weight_pairs_checked": 900
+        },
+        {
+          "first_maximizer": [
+            3,
+            4
+          ],
+          "maximum_image_size": 23,
+          "modulus": 27,
+          "point_count": 25,
+          "set": "T",
+          "weight_pairs_checked": 729
+        },
+        {
+          "first_maximizer": [
+            4,
+            3
+          ],
+          "maximum_image_size": 24,
+          "modulus": 28,
+          "point_count": 25,
+          "set": "T",
+          "weight_pairs_checked": 784
+        },
+        {
+          "first_maximizer": [
+            1,
+            8
+          ],
+          "maximum_image_size": 23,
+          "modulus": 29,
+          "point_count": 25,
+          "set": "T",
+          "weight_pairs_checked": 841
+        },
+        {
+          "first_maximizer": [
+            2,
+            5
+          ],
+          "maximum_image_size": 23,
+          "modulus": 30,
+          "point_count": 25,
+          "set": "T",
+          "weight_pairs_checked": 900
+        }
+      ],
+      "status": "PASS",
+      "total_weight_pairs": 4154
+    },
+    "verify_width_one_two_arithmetic.py": {
+      "algebra_grid": "2 <= s <= r <= 30",
+      "balanced_product_bound_grid": "3 <= r <= 30; 2 <= A,N <= r+2",
+      "exceptional_resource_checks": 2,
+      "scope": "finite arithmetic and source-integrity checks, not theorem certification",
+      "source_integrity": "Checked centrally by verify_revision.py without fixed lemma numbering",
+      "status": "PASS"
+    },
+    "verify_width_three_arithmetic.py": {
+      "additional_resource_checks": 6,
+      "algebra_grid": "3 <= s <= r <= 24; h=r,r+1,r+5",
+      "nonunit_table_rows": 6,
+      "one_unit_table_rows": 5,
+      "scope": "finite table and algebra checks, not theorem certification",
+      "status": "PASS"
+    }
+  },
+  "equation_tag_groups": {
+    "3": 23
+  },
+  "equation_tags": 23,
+  "labels": 75,
+  "macaulay": {
+    "equality_multiplicities": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "range": [
+      4,
+      1000
+    ],
+    "strict_comparisons": 991,
+    "values_checked": 997
+  },
+  "references": 126,
+  "scope": "Bounded arithmetic and source integrity only; no Lean run or whole-theorem certification.",
+  "source_sha256": "d85408a9995be15ff1a51152257dbbde13d5c9bef74380d0f5c02054c2906e4b",
+  "status": "PASS"
+}

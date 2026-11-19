@@ -1,0 +1,23 @@
+{
+  "source_zip_sha256": "5344a7dc4ec82a061d16d342c4d52c4196421be537acd088309fe0e8e2036c6f",
+  "source_sha256": "d85408a9995be15ff1a51152257dbbde13d5c9bef74380d0f5c02054c2906e4b",
+  "appendix_test_sha256": "bd82553aaedf1cd3f5299155706b6c2af84ffcdb4c428c9096c5a2d2ab0b5fd6",
+  "lean_version": "Lean (version 4.34.0-rc1, x86_64-w64-windows-gnu, commit 3447a668783dbce1a8fdb97101dd067687b2b418, Release)",
+  "dependency_pins": {
+    "Cli": "af8bc067a4cc6c6df472a68909a3f40b1c76c43e",
+    "LeanSearchClient": "2bc7cf064315b26bc38dac2e9612fb581be9b75f",
+    "Qq": "3b55e9d00c6b0018e5d984eb011b6f93c09bd163",
+    "aesop": "c1c4362a130f12e632d252180a6c2a31d8fd4726",
+    "batteries": "01bc479e7432594821ba3fb0ca465211941de86d",
+    "importGraph": "978b7ec9fbbf9a535114f1de8fe5b3778b358870",
+    "mathlib": "de5ce8a9a66a4aa68a9bdbb35b63a06d34d9ca11",
+    "plausible": "38e9c3ce15cbb63c92e90bb9a92e4eb82131f669",
+    "proofwidgets": "99e8adeea3c3cd86b6b79ba01a1383bf2d31d055"
+  },
+  "basis": "Pinned toolchain and dependencies, receipt-matched project oleans, fresh compilation of the appendix excerpts.",
+  "timeout_seconds": 600,
+  "exit_code": 0,
+  "elapsed_seconds": 183.62,
+  "status": "PASS",
+  "olean_sha256": "1599e74d4c6a614814919b7d949686824758a18329ea8f8cde0c71aecfc34b18"
+}

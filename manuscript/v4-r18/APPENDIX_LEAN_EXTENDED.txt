@@ -1,0 +1,2 @@
+'NSP3.R18AppendixCheck.max_presentation_cardinality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSP3.R18AppendixCheck.attainable_presentation_cardinalities' depends on axioms: [propext, Classical.choice, Quot.sound]

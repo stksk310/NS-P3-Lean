@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "pages": 28,
+  "rebuilt_from_extracted_zip": true,
+  "tex_comments_and_hypertargets": 0,
+  "retired_duplicate_labels": [
+    "res:A.23",
+    "res:A.34"
+  ],
+  "lemma_3_15_theorem_and_proof_identical_to_r17": true,
+  "lean_sources_and_historical_verification_zip_byte_identical_to_r17": true,
+  "finite_weight_pair_checks": 4154,
+  "finite_capacity_cases": 1497,
+  "verified_displayed_minimizers": 8,
+  "invalid_minimizer_rejected_under_python_optimized_mode": true,
+  "source_sha256": "d85408a9995be15ff1a51152257dbbde13d5c9bef74380d0f5c02054c2906e4b",
+  "source_zip_sha256": "5344a7dc4ec82a061d16d342c4d52c4196421be537acd088309fe0e8e2036c6f",
+  "pdf_sha256": "1c7923d41dc413396ed1f98408320969b1f1d67603198beda761cf0c13f69424",
+  "appendix_lean_replay": {
+    "status": "PASS",
+    "elapsed_seconds": 183.62,
+    "receipt": "APPENDIX_LEAN_EXTENDED.json",
+    "log": "APPENDIX_LEAN_EXTENDED.log",
+    "scope": "Pinned toolchain and dependencies, receipt-matched project oleans, fresh compilation of the appendix excerpts."
+  }
+}
