@@ -2,6 +2,8 @@
 
 Companion Lean development and preprint by **Keisuke Sato** (Independent researcher, Japan), release **v0.2.0**.
 
+**[Read the 26-page preprint, version 3](manuscript/v3/P3_EDITORIAL_R06.pdf)** | [TeX and Lean verification materials](manuscript/v3/) | [Preprint archive](https://doi.org/10.5281/zenodo.24346040)
+
 **[Read the 26-page preprint, version 2](manuscript/v2/P3_EDITORIAL_R05.pdf)** | [TeX and Lean verification materials](manuscript/v2/) | [Preprint archive](https://doi.org/10.5281/zenodo.24346040)
 
 **[Read the 21-page preprint, version 1](manuscript/P3_PREPRINT.pdf)** · [Preprint DOI: 10.5281/zenodo.24346041](https://doi.org/10.5281/zenodo.24346041) · [TeX source](manuscript/P3_PREPRINT.tex) · [Release files and frozen evidence](https://github.com/stksk310/NS-P3-Lean/releases/tag/v0.2.0)
